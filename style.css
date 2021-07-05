@@ -1,0 +1,31 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+}
+h1 {
+  font-size: 50px;
+}
+#x {
+  color: coral;
+}
+section {
+  display: flex;
+}
+.x {
+  width: 50%;
+  padding-left: 5%;
+}
+.x img {
+  width: 70%;
+}
+#z {
+  text-decoration: none;
+  background-image: linear-gradient(pink, orange);
+  color: ghostwhite;
+  font-weight: 734;
+  padding: 10px 40px;
+  border-radius: 6px;
+}
+.alu {
+  background-image: url(top-banner.png);
+}
