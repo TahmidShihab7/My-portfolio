@@ -5,10 +5,13 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 42px;
+}
 #x {
   color: coral;
 }
-section {
+.fc {
   display: flex;
   margin-bottom: 100px;
 }
@@ -31,4 +34,34 @@ section {
   background-image: url(top-banner.png);
 }
 .potol {
-  background-image: url(dream-bg.png);background-repeat: no-repeat;background-position: right bottom;
+  background-image: url(dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.fp {
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  box-shadow: 10px 10px 55px gray;
+  padding-left: 20px;
+  padding-right: 15px;
+  border-radius: 22px;
+}
+.kodu {
+  background-image: url(exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+#lr2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#lr {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+}
+#f {
+  text-align: center;
+}
